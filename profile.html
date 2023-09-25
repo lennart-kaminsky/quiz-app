@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <script
+      src="https://kit.fontawesome.com/b1fad3716a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Quiz It</title>
+  </head>
+  <body>
+    <header>
+      <h1>Quiz it!</h1>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html">
+          <li>
+            <i class="fa fa-home" aria-label="home"></i>
+          </li>
+        </a>
+        <a href="bookmarks.html">
+          <li>
+            <i class="fa fa-bookmark" aria-label="bookmarks"></i>
+          </li>
+        </a>
+        <a href="profile.html">
+          <li class="opened">
+            <i class="fa fa-user" aria-label="personal profile"></i>
+          </li>
+        </a>
+      </ul>
+    </nav>
+    <main class="profile-main">
+      <section class="photo-name">
+        <img id="avatar" alt="photo of the user" src="img/github-avatar.png" />
+        <h2>Lenni Kaminsky</h2>
+      </section>
+      <section>
+        <h3>About me</h3>
+        <p>
+          This is Lenni. Im studying some web dev and this app is built by
+          myself. wow.
+        </p>
+        <div class="counters">
+          <div class="counter"><i class="fas fa-question"></i> 12</div>
+          <div class="counter">
+            <i class="fa fa-bookmark" aria-label="bookmarks"></i> 2
+          </div>
+        </div>
+      </section>
+      <section class="settings">
+        <h3>Settings</h3>
+        <label class="switch">
+          <input type="checkbox" checked /> Dark Mode
+        </label>
+      </section>
+    </main>
+  </body>
+</html>
