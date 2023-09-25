@@ -45,7 +45,7 @@ main {
 .q-card {
   background: rgb(18, 17, 17);
   border: 1px solid white;
-  margin: 1rem;
+  margin: 0.5rem 1rem;
   padding: 1.5rem;
   text-align: center;
   display: flex;
@@ -54,7 +54,8 @@ main {
   align-items: center;
   row-gap: 1rem;
   position: relative;
-  max-width: 400px;
+  max-width: 25rem;
+  min-height: 18rem;
 }
 
 p {
