@@ -12,20 +12,23 @@ header {
   text-align: center;
   border: 1px solid white;
   margin-inline: 0;
+  margin-block-start: 5%;
   background: rgb(18, 17, 17);
 }
 
 nav {
   border: 1px solid white;
-  margin: 0;
+  margin-block-end: 5%;
 }
 
 nav ul {
   list-style: none;
+  padding: 0;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 nav ul li {
-  background: orange;
+  font-size: 1.3rem;
 }
