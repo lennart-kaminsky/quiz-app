@@ -38,18 +38,26 @@ nav ul li {
 main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .q-card {
   background: rgb(18, 17, 17);
   border: 1px solid white;
   margin: 1rem;
-  padding: 1rem;
+  padding: 1.5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  row-gap: 1rem;
+  position: relative;
+  max-width: 400px;
+}
+
+p {
+  margin: 0;
 }
 
 .categories {
@@ -65,5 +73,39 @@ main {
 }
 
 #q1 .answer {
-  display: none;
+  /* display: none; */
+  visibility: hidden;
+}
+
+.answer-button {
+  background: transparent;
+  color: rgb(217, 141, 0);
+  border: 1px solid rgb(217, 141, 0);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.answer-button:hover {
+  color: rgb(0, 157, 0);
+  border-color: rgb(0, 157, 0);
+  font-weight: bold;
+  background-color: rgb(18, 17, 17);
+}
+
+.bookmark {
+  font-size: 2rem;
+  color: white;
+  background: rgb(18, 17, 17);
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: -0.7rem;
+  right: 1rem;
+}
+
+.opened {
+  color: rgb(217, 141, 0);
+}
+
+.answer {
 }
