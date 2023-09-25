@@ -1,3 +1,22 @@
 body {
   display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "nav";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+  overflow: auto;
+}
+
+nav {
+  grid-area: nav;
 }

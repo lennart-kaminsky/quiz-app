@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  background: rgb(40, 37, 37);
+}
+
+header {
+  text-align: center;
+  border: 1px solid white;
+  margin-inline: 0;
+  background: rgb(18, 17, 17);
+}
