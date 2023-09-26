@@ -81,8 +81,7 @@ p {
   padding: 0.5rem;
 }
 
-#q1 .answer {
-  /* display: none; */
+.hide-answer {
   visibility: hidden;
 }
 
@@ -94,11 +93,9 @@ p {
   border-radius: 0.5rem;
 }
 
-.answer-button:hover {
+.answer-button-hide {
   color: rgb(0, 157, 0);
   border-color: rgb(0, 157, 0);
-  font-weight: bold;
-  background-color: rgb(18, 17, 17);
 }
 
 .bookmark {
