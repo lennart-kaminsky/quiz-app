@@ -1,0 +1,10 @@
+.bookmark {
+  font-size: 2rem;
+  color: white;
+  background: rgb(18, 17, 17);
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: -0.7rem;
+  right: 1rem;
+}
