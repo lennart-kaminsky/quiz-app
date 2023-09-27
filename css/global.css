@@ -4,9 +4,17 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-white: #f0ebeb;
+  --first-background-color: #121111;
+  --second-background-color: #282525;
+  --first-accent-color: #d98d00;
+  --second-accent-color: #009d00;
+}
+
 body {
   font-family: "Courier New", Courier, monospace;
-  color: white;
-  background: rgb(40, 37, 37);
+  color: var(--color-white);
+  background: var(--second-background-color);
   margin: 0;
 }

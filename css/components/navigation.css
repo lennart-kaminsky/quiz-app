@@ -1,6 +1,6 @@
 nav {
-  border: 1px solid white;
-  background: rgb(18, 17, 17);
+  border: 1px solid var(--color-white);
+  background: var(--first-background-color);
 }
 
 nav ul {
@@ -13,9 +13,9 @@ nav ul {
 
 nav ul li {
   font-size: 1.3rem;
-  color: white;
+  color: var(--color-white);
 }
 
 .opened {
-  color: rgb(217, 141, 0);
+  color: var(--first-accent-color);
 }

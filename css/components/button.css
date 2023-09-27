@@ -1,12 +1,12 @@
 .answer-button {
   background: transparent;
-  color: rgb(217, 141, 0);
-  border: 1px solid rgb(217, 141, 0);
+  color: var(--first-accent-color);
+  border: 1px solid var(--first-accent-color);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
 }
 
 .answer-button-hide {
-  color: rgb(0, 157, 0);
-  border-color: rgb(0, 157, 0);
+  color: var(--second-accent-color);
+  border-color: var(--second-accent-color);
 }

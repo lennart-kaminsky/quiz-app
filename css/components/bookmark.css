@@ -1,7 +1,7 @@
 .bookmark {
   font-size: 2rem;
-  color: white;
-  background: rgb(18, 17, 17);
+  color: var(--color-white);
+  background: var(--first-background-color);
   padding: 0;
   border: 0;
   position: absolute;
