@@ -16,6 +16,6 @@ nav ul li {
   color: var(--color-white);
 }
 
-.opened {
+.li--state-active {
   color: var(--first-accent-color);
 }
