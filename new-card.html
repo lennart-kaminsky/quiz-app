@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b1fad3716a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/new-card.js" defer></script>
+    <title>Quiz It</title>
+  </head>
+  <body>
+    <header>
+      <h1>Quiz it!</h1>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html">
+          <li class="li--state-active">
+            <i class="fa fa-home" aria-label="home"></i>
+          </li>
+        </a>
+        <a href="bookmarks.html">
+          <li>
+            <i class="fa fa-bookmark" aria-label="bookmarks"></i>
+          </li>
+        </a>
+        <a href="profile.html">
+          <li>
+            <i class="fa fa-user" aria-label="personal profile"></i>
+          </li>
+        </a>
+      </ul>
+    </nav>
+    <main>
+      <section class="q-card">
+        <h2 id="form-title--new-cards" class="headline--margin-none">
+          Add New Cards
+        </h2>
+        <form aria-labelledby="form-title--new-cards" data-js="form--new-card">
+          <fieldset class="fieldset">
+            <legend class="legend">Your Question and Answer</legend>
+            <label for="newQuestion">Question</label>
+            <textarea
+              id="newQuestion"
+              name="newQuestion"
+              rows="3"
+              required
+            ></textarea>
+            <label for="newAnswer">Answer</label>
+            <textarea
+              id="newAnswer"
+              name="newAnswer"
+              rows="3"
+              required
+            ></textarea>
+          </fieldset>
+          <fieldset class="fieldset">
+            <legend class="legend">Categories</legend>
+            <label for="inputCategory">Add Category</label>
+            <div>
+              <input
+                id="inputCategory"
+                name="inputCategory"
+                data-js="inputCategory"
+                type="text"
+                min="3"
+                max="15"
+              />
+              <button
+                class="button--add-category"
+                data-js="button--add-category"
+                type="button"
+              >
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+            <div class="categories" data-js="categories--new"></div>
+          </fieldset>
+          <button type="submit" class="button--create-card">Create</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

@@ -6,6 +6,7 @@
 @import "./components/button.css";
 @import "./components/bookmark.css";
 @import "./components/profile.css";
+@import "./components/add-card.css";
 
 main {
   display: flex;
