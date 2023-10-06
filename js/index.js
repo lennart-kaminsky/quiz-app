@@ -25,7 +25,7 @@ const bookmarkButtons = document.querySelectorAll(
 bookmarkButtons.forEach((element) => {
   element.addEventListener("click", () => {
     if (element.innerHTML === '<i class="fa-regular fa-bookmark"></i>') {
-      //console.log("IF");
+      // //console.log("IF");
       element.innerHTML = '<i class="fa-solid fa-bookmark"></i>';
     } else {
       //console.log("ELSE");
