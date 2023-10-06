@@ -18,13 +18,18 @@
     <nav>
       <ul>
         <a href="index.html">
-          <li class="li--state-active">
+          <li>
             <i class="fa fa-home" aria-label="home"></i>
           </li>
         </a>
         <a href="bookmarks.html">
           <li>
             <i class="fa fa-bookmark" aria-label="bookmarks"></i>
+          </li>
+        </a>
+        <a href="form.html">
+          <li class="li--state-active">
+            <i class="fa-solid fa-plus" aria-label="add new card"></i>
           </li>
         </a>
         <a href="profile.html">
@@ -34,12 +39,14 @@
         </a>
       </ul>
     </nav>
-    <main>
-      <section class="q-card">
-        <h2 id="form-title--new-cards" class="headline--margin-none">
-          Add New Cards
-        </h2>
-        <form aria-labelledby="form-title--new-cards" data-js="form--new-card">
+    <main class="main--form" data-js="form-main">
+      <section class="form-section">
+        <h2 id="form-title--new-cards" class="h2--form">Add New Cards</h2>
+        <form
+          class="form--new-card"
+          aria-labelledby="form-title--new-cards"
+          data-js="form--new-card"
+        >
           <fieldset class="fieldset">
             <legend class="legend">Your Question and Answer</legend>
             <label for="newQuestion">Question</label>
@@ -59,8 +66,8 @@
           </fieldset>
           <fieldset class="fieldset">
             <legend class="legend">Categories</legend>
-            <label for="inputCategory">Add Category</label>
-            <div>
+            <label for="inputCategory">Add Tags</label>
+            <div class="div--new-categories">
               <input
                 id="inputCategory"
                 name="inputCategory"

@@ -1,29 +1,28 @@
-.headline--margin-none {
-  margin: 0;
-}
-
-.link--add-card {
-  position: fixed;
-  bottom: 5rem;
-  right: 2rem;
-  color: var(--first-accent-color);
-  border: 1px solid var(--first-accent-color);
-  padding: 0.5rem;
-  text-decoration: none;
-  background: var(--first-background-color);
-  box-shadow: 0px 0px 2px var(--color-white);
+.form--new-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .fieldset {
   display: flex;
   flex-direction: column;
+  width: 100%;
   gap: 1rem;
   border: 0;
+  padding: 0;
 }
 
 .legend {
   font-weight: bold;
   padding-block: 1rem;
+}
+
+.div--new-categories {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .button--create-card {
