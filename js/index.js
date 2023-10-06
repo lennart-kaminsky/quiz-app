@@ -16,3 +16,20 @@ for (let i = 0; i < answerButton.length; i++) {
     }
   });
 }
+
+//Bookmark
+const bookmarkButtons = document.querySelectorAll(
+  '[data-js="bookmark-button"]'
+);
+
+bookmarkButtons.forEach((element) => {
+  element.addEventListener("click", () => {
+    if (element.innerHTML === '<i class="fa-regular fa-bookmark"></i>') {
+      //console.log("IF");
+      element.innerHTML = '<i class="fa-solid fa-bookmark"></i>';
+    } else {
+      //console.log("ELSE");
+      element.innerHTML = '<i class="fa-regular fa-bookmark"></i>';
+    }
+  });
+});
