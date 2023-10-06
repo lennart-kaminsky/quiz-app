@@ -1,17 +1,32 @@
+.main--form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: stretch;
+  align-items: center;
+  min-width: 100%;
+}
 .form--new-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: stretch;
+  margin: none;
+  padding: none;
+  width: 70%;
+  max-width: 500px;
 }
 
 .fieldset {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  min-width: 100%;
   gap: 0.8rem;
   border: 0;
   padding: 0;
+}
+
+.fieldset textarea {
+  width: 100%;
 }
 
 .legend {
@@ -20,13 +35,17 @@
 }
 
 .div--new-categories {
-  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
+.div--new-categories input {
+  width: 100%;
+}
+
 .button--create-card {
   margin-block: 1rem;
+  align-self: center;
 }
 
 .p--counter {

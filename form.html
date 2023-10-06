@@ -40,65 +40,65 @@
       </ul>
     </nav>
     <main class="main--form" data-js="form-main">
-      <section class="form-section">
-        <h2 id="form-title--new-cards" class="h2--form">Add New Cards</h2>
-        <form
-          class="form--new-card"
-          aria-labelledby="form-title--new-cards"
-          data-js="form--new-card"
-        >
-          <fieldset class="fieldset">
-            <legend class="legend">Your Question and Answer</legend>
-            <label for="newQuestion">Question</label>
-            <textarea
-              id="newQuestion"
-              name="newQuestion"
-              rows="3"
-              data-js="question-textarea"
-              maxlength="150"
-              required
-            ></textarea>
-            <p class="p--counter">
-              <span data-js="question-char-counter">150</span> characters left
-            </p>
-            <label for="newAnswer">Answer</label>
-            <textarea
-              id="newAnswer"
-              name="newAnswer"
-              rows="3"
-              data-js="answer-textarea"
-              maxlength="150"
-              required
-            ></textarea>
-            <p class="p--counter">
-              <span data-js="answer-char-counter">150</span> characters left
-            </p>
-          </fieldset>
-          <fieldset class="fieldset">
-            <legend class="legend">Categories</legend>
-            <label for="inputCategory">Add Tags</label>
-            <div class="div--new-categories">
-              <input
-                id="inputCategory"
-                name="inputCategory"
-                data-js="inputCategory"
-                type="text"
-                min="3"
-                max="15"
-              />
-              <button
-                class="button--add-category"
-                data-js="button--add-category"
-                type="button"
-              >
-                <i class="fa-solid fa-plus"></i>
-              </button>
-            </div>
-            <div class="categories" data-js="categories--new"></div>
-          </fieldset>
-          <button type="submit" class="button--create-card">Create</button>
-        </form>
-      </section>
+      <!-- <section class="form-section"> -->
+      <h2 id="form-title--new-cards" class="h2--form">Add New Cards</h2>
+      <form
+        class="form--new-card"
+        aria-labelledby="form-title--new-cards"
+        data-js="form--new-card"
+      >
+        <fieldset class="fieldset">
+          <legend class="legend">Your Question and Answer</legend>
+          <label for="newQuestion">Question</label>
+          <textarea
+            id="newQuestion"
+            name="newQuestion"
+            rows="3"
+            data-js="question-textarea"
+            maxlength="150"
+            required
+          ></textarea>
+          <p class="p--counter">
+            <span data-js="question-char-counter">150</span> characters left
+          </p>
+          <label for="newAnswer">Answer</label>
+          <textarea
+            id="newAnswer"
+            name="newAnswer"
+            rows="3"
+            data-js="answer-textarea"
+            maxlength="150"
+            required
+          ></textarea>
+          <p class="p--counter">
+            <span data-js="answer-char-counter">150</span> characters left
+          </p>
+        </fieldset>
+        <fieldset class="fieldset">
+          <legend class="legend">Categories</legend>
+          <label for="inputCategory">Add Tags</label>
+          <div class="div--new-categories">
+            <input
+              id="inputCategory"
+              name="inputCategory"
+              data-js="inputCategory"
+              type="text"
+              min="3"
+              max="15"
+            />
+            <button
+              class="button--add-category"
+              data-js="button--add-category"
+              type="button"
+            >
+              <i class="fa-solid fa-plus"></i>
+            </button>
+          </div>
+          <div class="categories" data-js="categories--new"></div>
+        </fieldset>
+        <button type="submit" class="button--create-card">Create</button>
+        <!-- </section> -->
+      </form>
     </main>
   </body>
 </html>

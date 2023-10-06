@@ -18,3 +18,14 @@ body {
   background: var(--second-background-color);
   margin: 0;
 }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}

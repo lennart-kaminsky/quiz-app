@@ -7,14 +7,3 @@
 @import "./components/bookmark.css";
 @import "./components/profile.css";
 @import "./components/add-card.css";
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-p {
-  margin: 0;
-}
