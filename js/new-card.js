@@ -66,9 +66,34 @@ newCardForm.addEventListener("submit", (event) => {
   createNewCard(newCard);
 });
 
+//
 //Form field text counter
+//
+const questionTextarea = document.querySelector(
+  '[data-js="question-textarea"]'
+);
+const questionCharCounter = document.querySelector(
+  '[data-js="question-char-counter"]'
+);
 
+questionTextarea.addEventListener("input", () => {
+  const count = questionTextarea.value.length;
+  questionCharCounter.textContent = 150 - count;
+});
+
+const answerTextarea = document.querySelector('[data-js="answer-textarea"]');
+const answerCharCounter = document.querySelector(
+  '[data-js="answer-char-counter"]'
+);
+
+answerTextarea.addEventListener("input", () => {
+  const count = answerTextarea.value.length;
+  answerCharCounter.textContent = 150 - count;
+});
+
+//
 //Create new Card
+//
 function createNewCard(newCard) {
   const sectionCard = document.createElement("section");
   sectionCard.classList.add("q-card");

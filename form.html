@@ -54,15 +54,25 @@
               id="newQuestion"
               name="newQuestion"
               rows="3"
+              data-js="question-textarea"
+              maxlength="150"
               required
             ></textarea>
+            <p class="p--counter">
+              <span data-js="question-char-counter">150</span> characters left
+            </p>
             <label for="newAnswer">Answer</label>
             <textarea
               id="newAnswer"
               name="newAnswer"
               rows="3"
+              data-js="answer-textarea"
+              maxlength="150"
               required
             ></textarea>
+            <p class="p--counter">
+              <span data-js="answer-char-counter">150</span> characters left
+            </p>
           </fieldset>
           <fieldset class="fieldset">
             <legend class="legend">Categories</legend>
